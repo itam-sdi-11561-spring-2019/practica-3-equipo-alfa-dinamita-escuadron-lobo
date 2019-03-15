@@ -1,0 +1,78 @@
+# do pract_3_spi_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying /opt/altera/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {/home/robotica/lab_principios_jch/practica3/PM_pract_3/pract_3_spi/pract_3_spi.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:52:54 on Mar 14,2019
+# vcom -reportprogress 300 -93 -work work /home/robotica/lab_principios_jch/practica3/PM_pract_3/pract_3_spi/pract_3_spi.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity pract_3_spi
+# -- Compiling architecture pract_3_spi_arch of pract_3_spi
+# End time: 17:52:55 on Mar 14,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/robotica/lab_principios_jch/practica3/PM_pract_3/pract_3_spi/spi_3_wire_master.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:52:55 on Mar 14,2019
+# vcom -reportprogress 300 -93 -work work /home/robotica/lab_principios_jch/practica3/PM_pract_3/pract_3_spi/spi_3_wire_master.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity spi_3_wire_master
+# -- Compiling architecture logic of spi_3_wire_master
+# End time: 17:52:55 on Mar 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/robotica/lab_principios_jch/practica3/PM_pract_3/pract_3_spi/init_accel.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:52:55 on Mar 14,2019
+# vcom -reportprogress 300 -93 -work work /home/robotica/lab_principios_jch/practica3/PM_pract_3/pract_3_spi/init_accel.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity init_accel
+# -- Compiling architecture init_accel_arch of init_accel
+# End time: 17:52:55 on Mar 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/robotica/lab_principios_jch/practica3/PM_pract_3/pract_3_spi/accel_rw.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:52:55 on Mar 14,2019
+# vcom -reportprogress 300 -93 -work work /home/robotica/lab_principios_jch/practica3/PM_pract_3/pract_3_spi/accel_rw.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity accel_rw
+# -- Compiling architecture accel_rw_arch of accel_rw
+# End time: 17:52:55 on Mar 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# stdin: <EOF>
+vsim work.accel_rw
+# vsim work.accel_rw 
+# Start time: 17:53:04 on Mar 14,2019
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.accel_rw(accel_rw_arch)
+# Loading work.spi_3_wire_master(logic)
+# End time: 17:53:13 on Mar 14,2019, Elapsed time: 0:00:09
+# Errors: 0, Warnings: 0

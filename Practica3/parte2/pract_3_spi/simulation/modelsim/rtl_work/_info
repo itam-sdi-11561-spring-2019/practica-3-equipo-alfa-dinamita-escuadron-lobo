@@ -1,0 +1,182 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/robotica/lab_principios_jch/practica3/PM_pract_3/pract_3_spi/simulation/modelsim
+Eaccel_rw
+Z1 w1552600486
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z6 8/home/robotica/lab_principios_jch/practica3/PM_pract_3/pract_3_spi/accel_rw.vhd
+Z7 F/home/robotica/lab_principios_jch/practica3/PM_pract_3/pract_3_spi/accel_rw.vhd
+l0
+L6
+VIlmYLE]U8kU6N4dfARDUh3
+!s100 `BAVaJ26]9PaBd3?SczoD2
+Z8 OV;C;10.5b;63
+31
+Z9 !s110 1552607575
+!i10b 1
+Z10 !s108 1552607575.000000
+Z11 !s90 -reportprogress|300|-93|-work|work|/home/robotica/lab_principios_jch/practica3/PM_pract_3/pract_3_spi/accel_rw.vhd|
+Z12 !s107 /home/robotica/lab_principios_jch/practica3/PM_pract_3/pract_3_spi/accel_rw.vhd|
+!i113 1
+Z13 o-93 -work work
+Z14 tExplicit 1 CvgOpt 0
+Aaccel_rw_arch
+R2
+R3
+R4
+R5
+DEx4 work 8 accel_rw 0 22 IlmYLE]U8kU6N4dfARDUh3
+l78
+L24
+VCQzmYe_f86XnBTfj[kIST1
+!s100 ;9McXLaaPmhYff;n[EZgN2
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Einit_accel
+Z15 w1552600087
+R2
+R3
+R4
+R5
+R0
+Z16 8/home/robotica/lab_principios_jch/practica3/PM_pract_3/pract_3_spi/init_accel.vhd
+Z17 F/home/robotica/lab_principios_jch/practica3/PM_pract_3/pract_3_spi/init_accel.vhd
+l0
+L6
+VAM2RoaF=Jh9:cNabijz;@0
+!s100 Eia@NBZU4f8G:PlXZGW?51
+R8
+31
+R9
+!i10b 1
+R10
+Z18 !s90 -reportprogress|300|-93|-work|work|/home/robotica/lab_principios_jch/practica3/PM_pract_3/pract_3_spi/init_accel.vhd|
+Z19 !s107 /home/robotica/lab_principios_jch/practica3/PM_pract_3/pract_3_spi/init_accel.vhd|
+!i113 1
+R13
+R14
+Ainit_accel_arch
+R2
+R3
+R4
+R5
+DEx4 work 10 init_accel 0 22 AM2RoaF=Jh9:cNabijz;@0
+l49
+L18
+V;g?TNX^0cjO;:`]P;OH0f3
+!s100 c0KRYWA<goNg3J`LL6QS^0
+R8
+31
+R9
+!i10b 1
+R10
+R18
+R19
+!i113 1
+R13
+R14
+Epract_3_spi
+R15
+R2
+R3
+R4
+R5
+R0
+Z20 8/home/robotica/lab_principios_jch/practica3/PM_pract_3/pract_3_spi/pract_3_spi.vhd
+Z21 F/home/robotica/lab_principios_jch/practica3/PM_pract_3/pract_3_spi/pract_3_spi.vhd
+l0
+L6
+V<i46n1Jcg57iOKSPh>MdK2
+!s100 7fzN^K;;LN@:Ge3F@eeIN1
+R8
+31
+R9
+!i10b 1
+Z22 !s108 1552607574.000000
+Z23 !s90 -reportprogress|300|-93|-work|work|/home/robotica/lab_principios_jch/practica3/PM_pract_3/pract_3_spi/pract_3_spi.vhd|
+Z24 !s107 /home/robotica/lab_principios_jch/practica3/PM_pract_3/pract_3_spi/pract_3_spi.vhd|
+!i113 1
+R13
+R14
+Apract_3_spi_arch
+R2
+R3
+R4
+R5
+DEx4 work 11 pract_3_spi 0 22 <i46n1Jcg57iOKSPh>MdK2
+l77
+L22
+VCmH2F72D8^DQEA0KCPITm1
+!s100 Q17]8HBA94^@>Uf=]a?n12
+R8
+31
+R9
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R13
+R14
+Espi_3_wire_master
+R15
+R2
+R3
+R4
+R5
+R0
+Z25 8/home/robotica/lab_principios_jch/practica3/PM_pract_3/pract_3_spi/spi_3_wire_master.vhd
+Z26 F/home/robotica/lab_principios_jch/practica3/PM_pract_3/pract_3_spi/spi_3_wire_master.vhd
+l0
+L28
+V3c4=i0Fk?W8VS8_kYdOJc2
+!s100 SdeagCiagijkH?ZcXi[?12
+R8
+31
+R9
+!i10b 1
+R10
+Z27 !s90 -reportprogress|300|-93|-work|work|/home/robotica/lab_principios_jch/practica3/PM_pract_3/pract_3_spi/spi_3_wire_master.vhd|
+Z28 !s107 /home/robotica/lab_principios_jch/practica3/PM_pract_3/pract_3_spi/spi_3_wire_master.vhd|
+!i113 1
+R13
+R14
+Alogic
+R2
+R3
+R4
+R5
+DEx4 work 17 spi_3_wire_master 0 22 3c4=i0Fk?W8VS8_kYdOJc2
+l63
+L51
+V8Q;GeEOG<]bGn:o_fIDmM1
+!s100 l0f=XWJ<z2C<nfcf8[4ao2
+R8
+31
+R9
+!i10b 1
+R10
+R27
+R28
+!i113 1
+R13
+R14
